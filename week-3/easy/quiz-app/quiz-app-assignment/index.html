@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-slate-300 w-screen h-screen">
+    <div class="flex flex-col justify-center items-center h-full w-full">
+        <div class="start flex justify-center items-start text-white text-[25px] font-bold w-full h-[5%] mt-10">
+            <button class="bg-purple-600 text-center w-40 h-16 rounded-xl">Start Quiz</button>
+        </div>
+        <div class="main flex flex-col justify-center items-center h-full w-full invisible">
+            <div class="in-main flex flex-col justify-start items-start bg-white rounded-t-xl w-[40rem] h-[4rem]">
+                <div class="flex flex-col justify-start ml-20">
+                    <div class="ques font-bold text-[25px] mt-10"></div>
+                    <div class="opt flex flex-col justify-start gap-8 font-medium text-[23px] mt-8">
+                        <div class="flex gap-4">
+                            <input type="radio" name="language" value="a">
+                            <div class="a"></div>
+                        </div>
+                        <div class="flex gap-4">
+                            <input type="radio" name="language" value="b">
+                            <div class="b"></div>
+                        </div>
+                        <div class="flex gap-4">
+                            <input type="radio" name="language" value="c">
+                            <div class="c"></div>
+                        </div>
+                        <div class="flex gap-4">
+                            <input type="radio" name="language" value="d">
+                            <div class="d"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="submit flex justify-center items-center bg-purple-600 rounded-b-xl w-[40rem] h-[6rem] text-white font-bold text-[25px]">
+                <div>SUBMIT</div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
