@@ -1,6 +1,10 @@
 TN:
 SF:02-logIncomingRequests.js
+<<<<<<< HEAD
 FN:6,logRequests
+=======
+FN:5,logRequests
+>>>>>>> ac02966658ccf0427a1abb6dc38aab64af95fa0c
 FNF:1
 FNH:1
 FNDA:2,logRequests
@@ -8,25 +12,41 @@ DA:1,1
 DA:2,1
 DA:3,1
 DA:4,1
+<<<<<<< HEAD
 DA:5,1
+=======
+DA:5,2
+>>>>>>> ac02966658ccf0427a1abb6dc38aab64af95fa0c
 DA:6,2
 DA:7,2
 DA:8,2
 DA:9,2
+<<<<<<< HEAD
 DA:10,2
 DA:11,2
+=======
+DA:10,1
+DA:11,1
+>>>>>>> ac02966658ccf0427a1abb6dc38aab64af95fa0c
 DA:12,1
 DA:13,1
 DA:14,1
 DA:15,1
 DA:16,1
 DA:17,1
+<<<<<<< HEAD
 DA:18,1
 DA:19,1
 LF:19
 LH:19
 BRDA:6,0,0,2
 BRDA:15,1,0,1
+=======
+LF:17
+LH:17
+BRDA:5,0,0,2
+BRDA:13,1,0,1
+>>>>>>> ac02966658ccf0427a1abb6dc38aab64af95fa0c
 BRF:2
 BRH:2
 end_of_record
